@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "title": "Gorra Bulls",
+        "category": "Eastern",
+        "image": "bulls.webp",
+        "price": 15500,
+        "itHasDues": true,
+        "isAnOffer": false
+      },
+      {
+        "id": 2,
+        "title": "Gorra Celtics",
+        "category": "Eastern",
+        "image": "celtics.webp",
+        "price": 16000,
+        "itHasDues": true,
+        "isAnOffer": true
+      },
+      {
+        "id": 3,
+        "title": "Gorra Knicks",
+        "category": "Outlet",
+        "image": "knicks.webp",
+        "price": 15500,
+        "itHasDues": false,
+        "isAnOffer": true
+      },
+      {
+        "id": 4,
+        "title": "Gorra Lakers",
+        "category": "Western",
+        "image": "lakers.webp",
+        "price": 16200,
+        "itHasDues": true,
+        "isAnOffer": false
+      },
+      {
+        "id": 5,
+        "title": "Gorra Memphis",
+        "category": "Western",
+        "image": "memphis.webp",
+        "price": 15500,
+        "itHasDues": false,
+        "isAnOffer": false
+      },
+      {
+        "id": 6,
+        "title": "Gorra Spurs",
+        "category": "Outlet",
+        "image": "spurs.webp",
+        "price": 15500,
+        "itHasDues": true,
+        "isAnOffer": false
+      }
+]

@@ -28,7 +28,7 @@ const ItemCount = ({ stock, initial, onAdd }) => {
             <button onClick={handleDecrement} disabled={count <= initial}>-</button>
             <span>{count}</span>
             <button onClick={handleIncrement} disabled={count >= stock}>+</button>
-            <button onClick={handleAddToCart} disabled={count === 0}>Agregar al carrito</button>
+            <button onClick={handleAddToCart} disabled={count === 0}>Suma al carrito</button>
         </div>
     );
 }

@@ -2,7 +2,7 @@ import { CircularProgress, Grid, Typography } from "@mui/material";
 import useAsyncMock from "../../hooks/useAsyncMock";
 import products from '../../mocks/products.json';
 import ProductDetail from "./ProductDetail";
-import ProductInfo from "./ProductInfo";
+
 
 const ProductList = () => {
     const { data, loading } = useAsyncMock(products)
@@ -11,6 +11,9 @@ const ProductList = () => {
 
 
     return (<div className="container">
+        <Typography variant="h2" style={{ color: "black" }}>
+            Productos
+        </Typography>
         <Grid container spacing={3}>
             {
                 data.map((product) => {

@@ -8,8 +8,8 @@ import ProductDetail from "../products/ProductDetail";
 const CategoriesProductList = () => {
     const { categoryId } = useParams();
     const { data, loading } = useAsyncMock(products);
-
     if (loading) return <CircularProgress />
+
 
     const categorySelected = data.filter(category => category.category.toLowerCase() === categoryId.toLocaleLowerCase());
 

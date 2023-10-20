@@ -1,8 +1,27 @@
-import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import { Typography } from "@mui/material";
+import { useCartContext } from "../context/CartContext";
+import React, { useContext } from 'react';
+
 
 const CartWidget = () => {
-    return (<> <AddShoppingCartIcon/> <span>4</span> </>);
-}
+  const { cart } = useCartContext();
+  const itemCount = cart.items.length;
+  
 
-export default CartWidget
+  return (
+    <div style={{ display: "flex", alignItems: "center" }}>
+      <ShoppingCartIcon />
+      <Typography>{itemCount}</Typography>
+      
+    </div>
+    
+    
+    
+  );
+};
 
+
+
+
+export default CartWidget;

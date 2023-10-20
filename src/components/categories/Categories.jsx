@@ -8,19 +8,18 @@ const Categories = () => {
 
     if (loading) return <CircularProgress />
 
-    return (<div className="container">
-        {
-            data.map((category) => {
-                return (
-                    <Card key={category.id}>
-                        <CardContent component={Link} to={`/category/${category.category}`}>
-                            <Typography >{category.category}</Typography>
-                        </CardContent>
-                    </Card>
-                )
-            })
-        }
-    </div>);
+    return (
+        <div className="container">
+          {data.map((category, index) => (
+            <Card key={index}>
+              <CardContent component={Link} to={`/category/${category.category}`}>
+                <Typography>{category.category}</Typography>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+      );
+      
 }
 
 export default Categories;

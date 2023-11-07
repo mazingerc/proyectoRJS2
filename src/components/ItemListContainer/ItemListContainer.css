@@ -1,6 +1,17 @@
-.itemcontainer{
+.list_container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.list_container h2 {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
-    
+    color: rgb(10, 10, 10);
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.list_container p {
+    font-size: 20px;
 }

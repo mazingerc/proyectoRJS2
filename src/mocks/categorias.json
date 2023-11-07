@@ -1,14 +1,17 @@
 [
     {
         "id": 1,
-        "category": "Eastern"
+        "category": "Eastern",
+        "image": "https://seeklogo.com/images/N/nba-eastern-conference-logo-0B7E499625-seeklogo.com.png"
     },
     {
         "id": 1,
-        "category": "Western"
+        "category": "Western", 
+        "image": "https://seeklogo.com/images/N/nba-western-conference-logo-CD123BABD3-seeklogo.com.png"
     },
     {
         "id": 1,
-        "category": "Outlet"
+        "category": "Outlet",
+        "image": "https://png.pngtree.com/png-clipart/20220831/ourmid/pngtree-basketball-logo-on-transparent-background-png-image_6132277.png"
     }
 ]

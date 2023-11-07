@@ -34,7 +34,7 @@
     width: 233px;
     max-height: 200px;
   }
-  
+
   .card-media {
     width: 133px;
     height: 134px;
@@ -45,8 +45,8 @@
   
   .card-products-container {
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    height: 100%;
   }
   
   .card-products-content {

@@ -28,6 +28,7 @@ const ProductInfo = ({ product, open, setOpen }) => {
                 id, title, image, price, quantity: count
             })
         }
+        setOpen(false);
     };
 
 
@@ -56,3 +57,4 @@ const ProductInfo = ({ product, open, setOpen }) => {
 
 
 export default ProductInfo;
+

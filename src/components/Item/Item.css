@@ -1,0 +1,33 @@
+.cardProducto {
+	background-color:  rgb(204, 40, 57);
+	border-radius: 10px;
+	width: 15rem;
+	padding: 1rem;
+	margin: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.cardProducto:hover {
+	box-shadow: 0 8px 16px rgba(235, 15, 125, 0.2);
+}
+
+.imgProducto {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 10px;
+	margin-bottom: 1rem;
+}
+
+h3 {
+	font-size: 1.2rem;
+	margin-bottom: 0.5rem;
+	text-align: center;
+}
+
+p {
+	margin: 5px;
+}
